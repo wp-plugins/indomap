@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: indomap
-Plugin URI: http://www.wordpress.org/plugin/indomap/
+Plugin URI: http://wordpress.org/extend/plugins/indomap/
 Description: Create Maps in Metabox Post with advanced features
 Version: 1.0.1
 Author: Minda Sari

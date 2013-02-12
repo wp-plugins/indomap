@@ -1,8 +1,11 @@
 === Plugin Name ===
 Contributors: Minda Sari
 Tags: google maps, jquery, javascript, googlemaps, gmap, gmap3, maps
-Requires at least: 1.0
-Tested up to: 5.0
+Requires at least: 3.5
+Tested up to: 3.5.1
+Stable tag: 0.1
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 jQuery plugin to create google maps with advanced features (overlays, clusters, callbacks, events...)
 == Description ==

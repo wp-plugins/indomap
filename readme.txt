@@ -12,7 +12,7 @@ jQuery plugin to create google maps with advanced features (overlays, clusters, 
 jQuery plugin to create google maps with advanced features (overlays, clusters, callbacks, events...)
 
 For more information visit http://gmap3.net/
-Author visit a href="http://dadanminda.wordpress.com">http://dadanminda.wordpress.com</a>
+Author visit <a href="http://dadanminda.wordpress.com">http://dadanminda.wordpress.com</a>
 
 
 == Installation ==

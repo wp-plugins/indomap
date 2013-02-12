@@ -1,9 +1,9 @@
-<?
+<?php
 /*
 Plugin Name: indomap
 Plugin URI: http://www.wordpress.org/plugin/indomap/
 Description: Create Maps in Metabox Post with advanced features
-Version: 1.0
+Version: 1.0.1
 Author: Minda Sari
 Author URI: http://www.mindasari.wordpress.com/
 License: GPL2
@@ -42,6 +42,7 @@ class Indo_MAP
 	}
 	
 	function function_indomap( $atts, $content=null ) {
+		global $post;
 		extract( shortcode_atts( array(
 			'address' => '-7.536428700000001,110.23402829999998',
 			'width' => '',
@@ -60,7 +61,7 @@ class Indo_MAP
 			$width = $width.'px';
 		}
 		
-		$data = str_ireplace("'","\'",$data);
+		$data = str_ireplace("'","\'",$data.$address.'<br>'.get_the_post_thumbnail($post->ID, array(50,50)));
 		if($width!='') $width = 'width:'.$width;
 		$id = 'Indo_MAP-'.rand();
 		$content = '
@@ -116,16 +117,13 @@ class Indo_MAP
 	
 	function add_setting_Indo_MAP() {
 		global $post;
-	?>
-		<style type="text/css">
+		echo '<style type="text/css">
 			.Indo_MAP_address{width:100%}
 		</style>
 		<div id="parent_Indo_MAP_address" class="parent_Indo_MAP_address">
-			<label for=""><?php _e('Address:'); ?></label>
-			<input type="text" id="Indo_MAP_address" class="Indo_MAP_address" name="Indo_MAP_address" value="<?php echo get_post_meta($post->ID,'Indo_MAP_address',true); ?>" />
-		</div><!-- #custom_setting_for_pages -->
-		
-		<?php
+			<label for="">'.__('Address:').'</label>
+			<input type="text" id="Indo_MAP_address" class="Indo_MAP_address" name="Indo_MAP_address" value="'.get_post_meta($post->ID,'Indo_MAP_address',true).'" />
+		</div><!-- #custom_setting_for_pages -->';
 	}
 	  
 	function meta_save_setting_Indo_MAP(){

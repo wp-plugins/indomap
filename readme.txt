@@ -12,12 +12,13 @@ jQuery plugin to create google maps with advanced features (overlays, clusters, 
 jQuery plugin to create google maps with advanced features (overlays, clusters, callbacks, events...)
 
 For more information visit http://gmap3.net/
+Author visit a href="http://dadanminda.wordpress.com">http://dadanminda.wordpress.com</a>
 
-Javascript by Jean-Baptiste DEMONTE.
 
 == Installation ==
 1. Upload `indomap/` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
+3. Input address in metabox post
 
 Its recommended to flush the cache after upgrading.
 
@@ -27,8 +28,12 @@ None at this moment.
 == Upgrade Notice == 
 
 == Screenshots ==
-Not relevant.
+1. screenshot-1.jpg
+2. screenshot-2.jpg
 
 == Changelog ==
+= 1.0.1 = 
+* Fix bug php tag
+
 = 1.0 = 
 * Release

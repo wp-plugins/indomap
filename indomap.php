@@ -113,6 +113,7 @@ class Indo_MAP
 	
 	function admin_init_setting_Indo_MAP(){
 		add_meta_box("add_setting_Indo_MAP", "MAP Address", array( &$this, "add_setting_Indo_MAP"), "post", "normal", "high");
+		add_meta_box("add_setting_Indo_MAP", "MAP Address", array( &$this, "add_setting_Indo_MAP"), "page", "normal", "high");
 	}
 	
 	function add_setting_Indo_MAP() {

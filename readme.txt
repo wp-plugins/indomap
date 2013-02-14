@@ -3,7 +3,7 @@ Contributors: Minda Sari
 Tags: google maps, jquery, javascript, googlemaps, gmap, gmap3, maps
 Requires at least: 3.5
 Tested up to: 3.5.1
-Stable tag: 0.1
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -32,6 +32,9 @@ None at this moment.
 2. screenshot-2.jpg
 
 == Changelog ==
+= 1.0.2 = 
+* Support indomap on post_type page
+
 = 1.0.1 = 
 * Fix bug php tag
 

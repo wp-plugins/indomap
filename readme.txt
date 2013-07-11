@@ -1,5 +1,6 @@
 === Plugin Name ===
 Contributors: Minda Sari
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6DZFJFSVZCVAU
 Tags: google maps, jquery, javascript, googlemaps, gmap, gmap3, maps
 Requires at least: 3.5
 Tested up to: 3.5.1
@@ -30,6 +31,9 @@ None at this moment.
 == Screenshots ==
 1. screenshot-1.jpg
 2. screenshot-2.jpg
+
+== Credits ==
+Created by [Minda Sari](http://www.dadanminda.wordpress.com/) - [Donate](http://bit.ly/hjaDonate) 
 
 == Changelog ==
 = 1.0.2 = 
